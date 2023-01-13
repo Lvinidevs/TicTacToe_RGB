@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: cursive;
+}
+h2{text-align: center;color:dimgray;}
+body {
+	
+	background: black;
+}
+
+main{margin-top: 10%;}
+.game{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.game button {
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	cursor: pointer;
+	font-size: 50px;
+	background: #f7f7f7;
+    border-radius: 20%
+}
+h4{
+	color: aqua;
+}
+.buttoncmd{
+	color: chartreuse;
+	border-radius: 3px;
+	background-color: black;
+	transition: 0.1s;
+}
+.buttoncmd:hover{
+	border-color: chartreuse;
+	border-radius: 3px;
+}
+.inputO{
+	background-color:black;
+	border-color: blue;
+	color: blue;
+}
+.inputX{
+	background-color:black;
+	border-color: red;
+	color: red;
+}

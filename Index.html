@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T T T(RGB)🕹</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <header style="font-family: 'Courier New', Courier, monospace;padding: 5px;background-color:slategray;text-align: center;">
+        <h1>🟪🟨🟧T T T(RGB)🕹🟩🟦🟫</h1>  
+    </header>
+<div style="background-color: rgb(0, 0, 0); display: flex;">
+    <input type="button" value="New Game" id="rgb-action" onclick="start()" class="buttoncmd">&nbsp;&nbsp;
+    <h4 id="counter" style="color:rgb(136, 136, 136);">00:00:00</h4>&nbsp;&nbsp;<button onclick="stop()" class="buttoncmd">Stop</button>&nbsp;&nbsp;
+    <h4 style="color:rgb(136, 136, 136);">PLACAR</h4>&nbsp;&nbsp;
+    <input type="number" name="X" style="width: 10%;" placeholder="O" class="inputO">&nbsp;
+    <input type="number" name="O" style="width: 10%;" placeholder="X" class="inputX"> &nbsp;
+    <button onclick="window.location.reload()" class="buttoncmd">Reset</button>
+</div>
+    <hr />
+    <main>
+        
+    <div class="game">
+    <button data-i="1" id="RGB-1"></button>
+    <button data-i="2" id="RGB-2"></button>
+    <button data-i="3" id="RGB-3"></button>
+    </div>
+    <div class="game">
+    <button data-i="4" id="RGB-4"></button>
+    <button data-i="5" id="RGB-5"></button>
+    <button data-i="6" id="RGB-6"></button>
+    </div>
+    <div class="game">
+    <button data-i="7" id="RGB-7"></button>
+    <button data-i="8" id="RGB-8"></button>
+    <button data-i="9" id="RGB-9"></button>
+    </div>
+    <h2 class="currentPlayer"></h2>
+    </main>
+    <script src="cmd.js"></script>
+</body>
+</html>
